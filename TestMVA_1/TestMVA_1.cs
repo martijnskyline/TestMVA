@@ -66,6 +66,6 @@ public class Script
 	/// <param name="engine">Link with SLAutomation process.</param>
 	public void Run(Engine engine)
 	{
-
+		engine.GenerateInformation("test");
 	}
 }
